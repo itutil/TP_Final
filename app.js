@@ -20,6 +20,5 @@ app.get('/register', (req,res)=>{
 function hide() {
     document.getElementById("hidden").style.display = "none";
 
-    // to do an autoclick to class "checkbtn"
     document.getElementsByClassName("checkbtn")[0].click();
   }
